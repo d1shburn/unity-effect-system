@@ -9,7 +9,7 @@ public sealed class EffectDefinition
     public int MaxStacks { get; }
 
     public EffectDefinition(float? duration, float? tickInterval,
-        int maxStacks = 0)
+        int maxStacks = 1)
     {
         if (duration is <= 0f)
             throw new ArgumentOutOfRangeException(nameof(duration));
