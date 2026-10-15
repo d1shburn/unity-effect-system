@@ -17,7 +17,7 @@ public sealed class EffectDefinition
         if (tickInterval is <= 0f)
             throw new ArgumentOutOfRangeException(nameof(tickInterval));
 
-        if (maxStacks < 0)
+        if (maxStacks <= 0)
             throw new ArgumentOutOfRangeException(nameof(maxStacks));
 
         Duration = duration;
