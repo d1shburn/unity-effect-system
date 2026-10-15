@@ -1,0 +1,7 @@
+{
+    "name": "EffectSystem.Unity",
+    "rootNamespace": "EffectSystem.Unity",
+    "references": [
+        "EffectSystem.Core"
+    ]
+}

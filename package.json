@@ -1,0 +1,11 @@
+{
+  "name": "com.d1shburn.effect-system",
+  "version": "0.1.0",
+  "displayName": "Effect System",
+  "description": "A reusable status effect system for Unity.",
+  "unity": "6000.0",
+  "author": {
+    "name": "d1shburn",
+    "url": "https://github.com/d1shburn"
+  }
+}
